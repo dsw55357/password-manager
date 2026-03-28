@@ -1,4 +1,6 @@
-const express = require("express");
+import express from "express";
+import securityRoutes from "./routes/security.routes.js";
+
 
 const app = express();
 const PORT = 3000;
